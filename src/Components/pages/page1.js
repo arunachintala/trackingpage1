@@ -9,7 +9,7 @@ function Page1() {
 
             <Card1 text1={'2203331212'} text2={'Tracking not generated'} />
             <Card2 text1={'2203331212'} />
-            <a href="http://localhost:3000/" style={{ margin: '30px', color: '#0C77FF', fontFamily: 'Poppins', fontWeight: 400, fontSize: '12px', lineHeight: '18px', textAlign: 'center', textDecoration: 'underline', textDecorationColor: '#0C77FF' }}> Need help?</a>
+            <a href="http://localhost:3000/" style={{ margin: '15px', color: '#0C77FF', fontFamily: 'Poppins', fontWeight: 400, fontSize: '12px', lineHeight: '18px', textAlign: 'center', textDecoration: 'underline', textDecorationColor: '#0C77FF' }}> Need help?</a>
             <div >
                 <button
                     style={{
@@ -25,7 +25,7 @@ function Page1() {
                         height: '36px',
                         fontFamily: 'Poppins',
                         left: '58px',
-                        top: '881px',
+                        top: '1025px',
                         position: 'absolute',
                         display: 'flex',
                         alignItems: 'center',

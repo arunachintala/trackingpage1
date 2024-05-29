@@ -1,5 +1,5 @@
 import React from 'react';
-import Status from '../Status/Status'
+
 import Page1 from '../pages/page1';
 import Page2 from '../pages/Page2';
 import { Card } from 'antd';
@@ -16,7 +16,8 @@ function Page3() {
                 <div>
                     <div style={{ display: 'flex', flexDirection: 'row' }}>
                         <div>
-                            <Status />
+                            <div style={{ marginLeft: '16px', width: 'auto', height: 'auto', }}><p style={{ fontFamily: 'Poppins', fontWeight: '600', fontSize: '16px', lineHeight: '24px', color: '#121114' }}>Tracking Status</p>
+                                <p style={{ marginTop: '10px', marginBottom: '55px', fontFamily: 'Poppins', color: '#5F5A6B', fontWeight: '400', fontSize: '12px', lineHeight: '18px' }}>Quickly check your tracking status below or click on details see more info.</p></div>
                             <Page1 />
                         </div>
                         <div>

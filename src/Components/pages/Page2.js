@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from 'antd';
-import logo from '../../assets/zippyy_logo.png';
+import logo from '../../assets/zippyy_logo.svg';
 import Stepper from '../Stepper/HorizontalStepper'
 import post from '../../assets/post.png'
 import AddressBox from '../AddressBox/AddressBox';
@@ -21,7 +21,7 @@ function Page2() {
                     <img style={{ marginTop: '100px' }} src={logo} alt="Nologo" />
                 </div>
                 <Stepper />
-                <div style={{ color: "#D9D9D9", fontFamily: 'Poppins', fontWeight: '400', fontSize: '14px', lineHeight: '21px', display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginTop: '40px' }}>
+                <div style={{ color: "#9EA3A2", fontFamily: 'Poppins', fontWeight: '400', fontSize: '14px', lineHeight: '21px', display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginTop: '40px' }}>
                     <p>Estimated Delivery Date</p>
                     <p>Carrier</p>
                 </div>
@@ -29,7 +29,7 @@ function Page2() {
                     <p>Thursday, May 16</p>
                     <img src={post} alt="nologo" />
                 </div>
-                <div style={{ color: "#D9D9D9", fontFamily: 'Poppins', fontWeight: '400', fontSize: '14px', lineHeight: '21px', display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginTop: '40px' }}>
+                <div style={{ color: "#9EA3A2", fontFamily: 'Poppins', fontWeight: '400', fontSize: '14px', lineHeight: '21px', display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginTop: '40px' }}>
                     <p>Latest shipment status</p>
                     <p>Carrier tracking id</p>
                 </div>
@@ -40,7 +40,7 @@ function Page2() {
                 <Deliverydetails />
             </Card>
             <AddressBox />
-            <div style={{ position: 'absolute', top: '1055px', left: '1269px' }}>
+            <div style={{ position: 'absolute', top: '1055px', left: '1255px' }}>
                 <p style={{ fontFamily: 'Poppins', fontWeight: '400', fontSize: '12px', lineHeight: '18px', color: '#121114' }}>Powered by Zippyy</p>
             </div>
         </div>

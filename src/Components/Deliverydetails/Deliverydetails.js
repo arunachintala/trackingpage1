@@ -13,7 +13,7 @@ function Deliverydetails() {
                 <VerticalStepper />
             </div>
             <div style={{ color: '#121114', backgroundColor: '#F5F8F8', border: '1px solid #D9D9D9 ', display: 'flex', flexDirection: 'column', height: '25px' }}>
-                <p style={{ fontFamily: 'Poppins', fontWeight: '600', fontSize: '14px', lineHeight: '21px' }}>May 15, 2024</p>
+                <p style={{ paddingLeft: '10px', fontFamily: 'Poppins', fontWeight: '600', fontSize: '14px', lineHeight: '21px' }}>May 15, 2024</p>
             </div>
         </div>
     )

@@ -15,7 +15,7 @@ const steps = [
     'Delivered',
 ];
 
-// Custom Connector with active line color
+
 const QontoConnector = styled(StepConnector)(({ theme }) => ({
     [`&.${stepConnectorClasses.alternativeLabel}`]: {
         top: 10,
@@ -24,23 +24,23 @@ const QontoConnector = styled(StepConnector)(({ theme }) => ({
     },
     [`&.${stepConnectorClasses.active}`]: {
         '& .MuiStepConnector-line': {
-            borderColor: '#e44d25', // Red-orange color
+            borderColor: '#D54029',
         },
     },
     [`&.${stepConnectorClasses.completed}`]: {
         '& .MuiStepConnector-line': {
-            borderColor: '#e44d25', // Red-orange color
+            borderColor: '#D54029',
         },
     },
     '& .MuiStepConnector-line': {
         borderColor: theme.palette.divider,
-        borderTopWidth: 2, // Thinner connector line
+        borderTopWidth: 2,
         borderRadius: 1,
-        marginTop: -5, // Adjust to remove gap
+        marginTop: -5,
     },
 }));
 
-// Custom Step Icon to remove numbers and add a tick mark for completed steps
+
 const CustomStepIcon = (props) => {
     const { completed, index } = props;
 
@@ -57,8 +57,8 @@ const CustomStepIcon = (props) => {
                 width: 24,
                 height: 24,
                 borderRadius: '50%',
-                border: `4px solid ${completed && !isLastStep ? '#e44d25' : isThirdStep ? '#e44d25' : isLastStep ? 'white' : '#ccc'}`,
-                backgroundColor: completed && !isThirdStep && !isLastStep ? '#e44d25' : isLastStep ? '#ccc' : 'white',
+                border: `4px solid ${completed && !isLastStep ? '#D54029' : isThirdStep ? '#D54029' : isLastStep ? 'white' : '#9EA3A2'}`, // Updated colors
+                backgroundColor: completed && !isThirdStep && !isLastStep ? '#D54029' : isLastStep ? '#9EA3A2' : 'white', // Updated colors
                 position: 'relative',
                 top: -5,
                 zIndex: 1,
@@ -83,9 +83,9 @@ function HorizontalLinearAlternativeLabelStepper() {
                             StepIconComponent={(props) => (
                                 <CustomStepIcon {...props} index={index} />
                             )}
-                            style={{ color: index === 2 ? '#e44d25' : '#ccc' }}
+                            style={{ color: index === 2 ? '#D54029' : '#9EA3A2' }}
                         >
-                            <span style={{ color: index === 2 ? '#e44d25' : '#ccc' }}>{label}</span>
+                            <span style={{ color: index === 2 ? '#D54029' : '#9EA3A2', fontSize: '14px', fontWeight: 400 }}>{label}</span>
                         </StepLabel>
                     </Step>
                 ))}

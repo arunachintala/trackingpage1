@@ -2,12 +2,12 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Card } from 'antd';
-import rect from '../../assets/Rectangle 6319.png'
-import logo from '../../assets/zippyy_logo.png';
-import logo1 from '../../assets/mail.png';
+import rect from '../../assets/Rectangle 6319.svg'
+import logo from '../../assets/zippyy_logo.svg';
+import logo1 from '../../assets/mail.svg';
 import './Page4.css';
-import box from '../../assets/Vector.png';
-import phone from '../../assets/phone.png';
+import box from '../../assets/Vector.svg';
+import phone from '../../assets/Phone.svg';
 function Page4() {
   const [orderid, setorderid] = useState('');
   const navigate = useNavigate();
@@ -33,7 +33,7 @@ function Page4() {
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '20px' }}>
             <img src={logo} alt="nologo" style={{ maxWidth: '100%', height: 'auto' }} />
           </div>
-          <p style={{ color: '#121114', marginLeft: '478px', paddingTop: '30px', fontFamily: 'Poppins', fontWeight: '400', fontSize: '16px', lineHeight: '24px' }}>Enter up to 25 of your Zippyy order IDs <span style={{ fontSize: '10px', lineHeight: '15px' }}>(Comma separated)</span></p>
+          <p style={{ color: '#121114', marginLeft: '478px', paddingTop: '30px', fontFamily: 'Poppins', fontWeight: '400', fontSize: '16px', lineHeight: '24px', marginBottom: '10px' }}>Enter up to 25 of your Zippyy order IDs <span style={{ fontSize: '10px', lineHeight: '15px' }}>(Comma separated)</span></p>
 
 
           <div><input style={{
@@ -120,7 +120,7 @@ function Page4() {
                 </a>
               </li>
             </ul>
-            <div style={{ fontFamily: 'Poppins', display: 'flex', justifyContent: 'flex-end', fontSize: '12px', fontWeight: 400, lineHeight: '18px', position: 'absolute', top: '870px', left: '1300px' }}>
+            <div style={{ fontFamily: 'Poppins', display: 'flex', justifyContent: 'flex-end', fontSize: '12px', fontWeight: 400, lineHeight: '18px', position: 'absolute', top: '880px', left: '1300px' }}>
               <p>Powered by Zippyy</p>
             </div>
           </div>
