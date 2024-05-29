@@ -40,7 +40,7 @@ function Page2() {
                 <Deliverydetails />
             </Card>
             <AddressBox />
-            <div style={{ position: 'absolute', top: '1055px', left: '1255px' }}>
+            <div style={{ marginLeft: '635px' }}>
                 <p style={{ fontFamily: 'Poppins', fontWeight: '400', fontSize: '12px', lineHeight: '18px', color: '#121114' }}>Powered by Zippyy</p>
             </div>
         </div>

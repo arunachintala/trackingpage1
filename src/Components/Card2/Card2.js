@@ -5,7 +5,7 @@ import Button from '../Button/Button';
 
 function Card2({ text1 }) {
     return (
-        <div className='Card-container'>
+        <div className='Card-container' style={{ border: '1px solid #D9D9D9' }}>
             <p className="card-text">Order id: <span>{text1}</span></p>
             <p className="card-des">Sorry! Invalid order-id</p>
             <div className='button-container'>

@@ -84,23 +84,33 @@ function Page4() {
             </button>
           </div>
 
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <div style={{ marginTop: '20px', backgroundColor: '#F5F8F8', justifyContent: 'flex-end', width: '476px', height: '151px' }}>
-              <div style={{ paddingTop: '10px ', margin: '30px', color: "#121114", fontFamily: 'Poppins', fontWeight: '500', fontSize: '22px', lineHeight: '33px', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end' }}>
+
+          <div style={{ marginTop: '40px', marginLeft: '41px', display: 'flex', justifyContent: 'center' }}>
+            <div style={{ backgroundColor: '#F5F8F8', width: '476px', height: '151px', marginLeft: '10px', display: 'flex', flexDirection: 'column', }}>
+
+              <div style={{ paddingLeft: '41px', paddingTop: '11px', color: "#121114", fontFamily: 'Poppins', fontWeight: '500', fontSize: '22px', lineHeight: '33px' }}>
                 <p>Contact Information</p>
-                <div style={{ color: '#5F5A6B' }}>
-                  <img src={box} alt="logo" />
-                  <span style={{ fontWeight: '400', fontSize: '16px', lineHeight: '24px' }}> support@godash.ai</span>
-                </div>
-                <div style={{ color: '#5F5A6B' }}>
-                  <img src={phone} alt="logo" />
-                  <span style={{ fontWeight: '400', fontSize: '16px', lineHeight: '24px' }}> 1800097866</span>
-                </div>
               </div>
+              <div style={{ paddingLeft: '41px', paddingTop: '11px', color: '#5F5A6B' }}>
+                <img src={box} alt="logo" />
+                <span style={{ paddingLeft: '10px', color: '#5F5A6B', fontWeight: '400', fontSize: '16px', lineHeight: '24px' }}> support@godash.ai</span>
+              </div>
+              <div style={{ paddingLeft: '41px', paddingTop: '11px', color: '#5F5A6B' }}>
+                <img src={phone} alt="logo" />
+                <span style={{ paddingLeft: '10px', fontWeight: '400', fontSize: '16px', lineHeight: '24px' }}> 1800097866</span>
+              </div>
+              <div style={{ paddingLeft: '4px', paddingTop: '10px' }}>
+                <hr style={{ width: '466px' }}></hr>
+              </div>
+              <div style={{ paddingLeft: '41px', paddingTop: '5px', color: "#0C77FF", fontFamily: 'Poppins', fontWeight: '400', fontSize: '10px', lineHeight: '15px' }}>
+                <p>Privacy policy</p>
+              </div>
+
             </div>
           </div>
+
           <hr style={{ border: 'none', borderTop: '1px solid #D9D9D9', marginTop: '30px', marginBottom: '20px' }} />
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', }}>
             <ul style={{ listStyle: 'none', padding: 0, display: 'flex', justifyContent: 'center', gap: '15px' }}>
               <li style={{ display: 'flex', alignItems: 'center', color: '#68717D', fontSize: '12px', fontFamily: 'Poppins', fontWeight: 400, lineHeight: '18px' }}>
                 &copy; 2024 GoDash. All rights reserved
@@ -120,7 +130,7 @@ function Page4() {
                 </a>
               </li>
             </ul>
-            <div style={{ fontFamily: 'Poppins', display: 'flex', justifyContent: 'flex-end', fontSize: '12px', fontWeight: 400, lineHeight: '18px', position: 'absolute', top: '880px', left: '1300px' }}>
+            <div style={{ fontFamily: 'Poppins', fontSize: '12px', fontWeight: 400, lineHeight: '18px', position: 'absolute', top: '900px', left: '1300px' }}>
               <p>Powered by Zippyy</p>
             </div>
           </div>
@@ -132,4 +142,5 @@ function Page4() {
 }
 
 export default Page4;
+
 
