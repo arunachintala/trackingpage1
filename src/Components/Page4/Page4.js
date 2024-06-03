@@ -1,4 +1,5 @@
 
+
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Card } from 'antd';
@@ -111,28 +112,32 @@ function Page4() {
 
           <hr style={{ border: 'none', borderTop: '1px solid #D9D9D9', marginTop: '30px', marginBottom: '20px' }} />
           <div style={{ display: 'flex', flexDirection: 'column', }}>
-            <ul style={{ listStyle: 'none', padding: 0, display: 'flex', justifyContent: 'center', gap: '15px' }}>
-              <li style={{ display: 'flex', alignItems: 'center', color: '#68717D', fontSize: '12px', fontFamily: 'Poppins', fontWeight: 400, lineHeight: '18px' }}>
+            <ul style={{ listStyle: 'none', marginLeft: '30%', padding: 0, display: 'flex', gap: '15px' }}>
+              <li style={{ display: 'flex', color: '#68717D', fontSize: '12px', fontFamily: 'Poppins', fontWeight: 400, lineHeight: '18px' }}>
                 &copy; 2024 GoDash. All rights reserved
               </li>
-              <li style={{ display: 'flex', alignItems: 'center', position: 'relative', fontSize: '12px', fontFamily: 'Poppins', fontWeight: 400, lineHeight: '18px', color: '#68717D' }}>
+              <li style={{ display: 'flex', fontSize: '12px', fontFamily: 'Poppins', fontWeight: 400, lineHeight: '18px', color: '#68717D' }}>
                 <span style={{ marginRight: '8px' }}>•</span>
                 <a href="/privacy-policy" style={{ textDecoration: 'none', color: '#68717D' }}>Privacy policy</a>
               </li>
-              <li style={{ display: 'flex', alignItems: 'center', position: 'relative', fontSize: '12px', fontFamily: 'Poppins', fontWeight: 400, lineHeight: '18px', color: '#68717D' }}>
+              <li style={{ display: 'flex', fontSize: '12px', fontFamily: 'Poppins', fontWeight: 400, lineHeight: '18px', color: '#68717D' }}>
                 <span style={{ marginRight: '8px' }}>•</span>
                 <a href="/terms-of-service" style={{ textDecoration: 'none', color: '#68717D' }}>Terms of service</a>
               </li>
-              <li style={{ display: 'flex', alignItems: 'center', position: 'relative', fontSize: '12px', fontFamily: 'Poppins', fontWeight: 400, lineHeight: '18px', color: '#68717D' }}>
+              <li style={{ display: 'flex', fontSize: '12px', fontFamily: 'Poppins', fontWeight: 400, lineHeight: '18px', color: '#68717D' }}>
                 <span style={{ marginRight: '8px' }}>•</span>
                 <a href="mailto:Support@gdoash.ai" style={{ textDecoration: 'underline', color: '#68717D', display: 'flex', alignItems: 'center' }}>
                   <img src={logo1} alt='nologo' style={{ marginRight: '4px' }}></img> Support@gdoash.ai
                 </a>
               </li>
+              <li>
+                <div style={{ fontFamily: 'Poppins', fontSize: '12px', fontWeight: 400, lineHeight: '18px', marginLeft: '200px' }}>
+                  <p>Powered by Zippyy</p>
+                </div>
+              </li>
             </ul>
-            <div style={{ fontFamily: 'Poppins', fontSize: '12px', fontWeight: 400, lineHeight: '18px', position: 'absolute', top: '900px', left: '1300px' }}>
-              <p>Powered by Zippyy</p>
-            </div>
+
+
           </div>
 
         </div>

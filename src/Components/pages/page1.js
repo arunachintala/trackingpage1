@@ -25,7 +25,7 @@ function Page1() {
                         height: '36px',
                         fontFamily: 'Poppins',
                         marginLeft: '58px',
-                        marginTop: '670px',
+                        marginTop: '680px',
                         position: 'absolute',
                         display: 'flex',
                         alignItems: 'center',
